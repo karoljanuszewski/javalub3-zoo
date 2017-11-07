@@ -1,0 +1,55 @@
+[33mcommit a86e7eb04644911ff810f1b7f014db65f6d03801[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mupstream/master[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: krrybarc <krystian.rybarczyk@assecobs.pl>
+Date:   Mon Nov 6 20:14:25 2017 +0100
+
+    Created clock for dependency injection.
+
+[33mcommit ed9f879548e4ffafaab6b032f37a0622056b8955[m
+Author: krrybarc <krystian.rybarczyk@assecobs.pl>
+Date:   Mon Nov 6 19:13:15 2017 +0100
+
+    First test for bear in Spock with implementation.
+
+[33mcommit c588de090fd56acb7a99d178c68bc6ea78389cf0[m
+Author: krrybarc <krystian.rybarczyk@assecobs.pl>
+Date:   Sun Nov 5 18:44:17 2017 +0100
+
+    Created test for living bear
+    
+    (cherry picked from commit 96f3871)
+
+[33mcommit f02c7d87ec7c875d1dddfde2b24c46e5aabcb891[m
+Author: krrybarc <krystian.rybarczyk@assecobs.pl>
+Date:   Sun Nov 5 19:31:08 2017 +0100
+
+    Created test for living bear with JUnit 5
+
+[33mcommit 1ff31056297fe5a5d756c6ac2bffdfee2320b5bc[m
+Author: krrybarc <981627+krrybarc@users.noreply.github.com>
+Date:   Sun Nov 5 19:09:40 2017 +0100
+
+    Create README.md
+
+[33mcommit 2e59c516b1b072a88e8460f6f0d5cfa38aab373c[m
+Author: krystian_rybarczyk <krystian.rybarczyk@protonmail.com>
+Date:   Tue Mar 21 23:43:33 2017 +0100
+
+    Created constructor with param to bear.
+
+[33mcommit 15bbd4a5188d56d55c3446bfd07b0a40f6da13bb[m
+Author: krrybarc <krystian.rybarczyk@upaid.pl>
+Date:   Mon Mar 20 00:11:08 2017 +0100
+
+    Created hierarchy of bears.
+
+[33mcommit e0d681c9eb7525ecb69a3146fee16189d1b95748[m
+Author: krystian_rybarczyk <krystian.rybarczyk@protonmail.com>
+Date:   Mon Mar 20 00:57:40 2017 +0100
+
+    Added build directive for Java 8.
+
+[33mcommit 1dd8b4b0ebae3b3ec3d62dee5aae260fc10348fc[m
+Author: krrybarc <krystian.rybarczyk@upaid.pl>
+Date:   Sun Mar 19 19:27:12 2017 +0100
+
+    Initialised new maven project.

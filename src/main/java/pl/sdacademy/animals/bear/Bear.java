@@ -11,7 +11,7 @@ public abstract class Bear implements Animal {
 
     private int weight;
 
-    private DateTime lastMealTime;
+    DateTime lastMealTime;
     private Clock clock;
 
     public DateTime getLastMealTime() {
