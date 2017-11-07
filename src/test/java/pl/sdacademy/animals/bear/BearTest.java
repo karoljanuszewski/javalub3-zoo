@@ -44,7 +44,6 @@ class BearTest {
         boolean result = bear.isAlive();
         assertTrue(result==false);
 
-
     }
 
 
