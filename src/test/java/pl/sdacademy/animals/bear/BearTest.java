@@ -4,6 +4,7 @@ import org.joda.time.DateTime;
 
 import org.joda.time.Duration;
 import org.junit.jupiter.api.Test;
+import pl.sdacademy.food.Food;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -46,29 +47,37 @@ class BearTest {
 
     }
 
+    @Test
+    void BearShouldGainWeightEqualToTheAmountFoodHeHasEaten(){
 
-
-
-
-
-   /* @Test
-    void FeedingBearShouldSetTHeDateOfTHeLastMealForNow(){
         Bear bear = new BlackBear(1);
-        bear.eat();
 
-        bear.lastMealTime=
-    }*/
+        int weightBefore = bear.getWeight();
 
-   /* def "Feeding bear should set the date of the last meal for now"() {
-        given:
-        Bear bear = new BlackBear(1)
-        bear.eat()
 
-        when:
-        def result = bear.getLastMealTime()
+        Food food = new Food(1);
+        bear.eat(food);
 
-        then:
-        new Duration(result, DateTime.now()).isShorterThan(Duration.standardSeconds(1))
-    }*/
+        int weightAfter = bear.getWeight();
+
+        assertTrue(weightBefore+food.getFoodWeight()==weightAfter);
+
+    }
+
+    @Test
+    void BearShouldGainWeightEqualToThreeQuartersTheAmountHeHasDrunken(){
+        Bear bear1 = new BlackBear(10);
+        Bear bear2 = new BlackBear(18);
+
+
+
+
+    }
+
+
+
+
+
+
 
 }

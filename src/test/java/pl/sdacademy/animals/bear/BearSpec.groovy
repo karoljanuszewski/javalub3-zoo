@@ -25,6 +25,7 @@ class BearSpec extends Specification {
         testBear << [new BlackBear(5), new PolarBear(20)]
     }
 
+
     def "Feeding bear should set the date of the last meal for now"() {
         given:
         Bear bear = new BlackBear(1)

@@ -5,6 +5,7 @@ import org.joda.time.Duration;
 import pl.sdacademy.animals.Animal;
 import pl.sdacademy.clock.Clock;
 import pl.sdacademy.clock.DateTimeClock;
+import pl.sdacademy.food.Food;
 
 
 public abstract class Bear implements Animal {
@@ -36,6 +37,10 @@ public abstract class Bear implements Animal {
 
     public void eat() {
         lastMealTime = clock.getCurrentTime();
+    }
+    public void eat(Food foodWeight){
+        weight+=foodWeight.getFoodWeight();
+
     }
 
     @Override
